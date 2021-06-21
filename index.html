@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <section>
+        <!--------CAMPO CEP---------->
+    <div class="campo-cep">
+        <form>
+            <input id="buscar-cep" type="text" placeholder="00000-000" maxlength="9" inputmode="numeric">
+            <button type="button" onclick="Mudarestado('campo-resultado')">Buscar CEP</button>
+            
+        </form>
+        <div id="mensagem-erro">
+            <p id="aviso-erro"></p>
+        </div>
+    </div>
+    
+    
+    <!-----CAMPO RESULTADO------->
+    <div id="campo-resultado">
+        <div class="resultado">
+            <h4>CEP:</h4>
+            <p id="CEP"></p>
+        </div>
+        <div class="resultado">
+            <h4>Estado:</h4>
+            <p id="uf"></p>
+        </div>
+        <div class="resultado">
+            <h4>Cidade:</h4>
+            <p id="cidade"></p>
+        </div>
+        <div class="resultado">
+            <h4>Logradouro:</h4>
+            <p id="endereco"></p>
+        </div>
+    </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

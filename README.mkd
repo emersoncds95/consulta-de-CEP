@@ -1,0 +1,11 @@
+# Consulta de CEP
+
+<img src="img/exemplo.gif" alt="">
+
+## Instruções
+
+* Para consultar digite o CEP desejado e clique em Buscar CEP
+* A consulta aceita 2 formatos de CEP diferentes, exemplo: 00000000 ou 00000-000
+* Quando o CEP estiver sendo digitado o - será adicionado automaticamente
+* Caso o CEP digitado não exista aparecerá uma mensagem de erro informando "CEP não encontrado"
+* Caso o CEP esteja em um formato invalido uma outra mensagem de erro aparecerá

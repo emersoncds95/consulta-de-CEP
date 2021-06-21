@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+
+}
+
+/*--------CAMPO CEP----------*/
+.campo-cep{
+    margin: 250px auto 0 auto;
+    height: 150px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 180, 180);
+}
+form{
+    margin: 50px 150px;
+    display: flex;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: rgb(66, 66, 66);
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(77, 77, 77); ;
+}
+input{
+    padding-left: 15px;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(180, 180, 180);
+}
+#mensagem-erro{
+    color: red;
+    font-size: 13px;
+    margin-left: 150px;
+    margin-top: -45px;
+}
+/*----CAMPO RESULTADO------*/
+#campo-resultado{
+    margin: 15px auto;
+    padding: 45px;
+    background-color: white;
+    width: 600px;
+    height: 180px;
+    border: 1px solid rgb(180, 180, 180);
+    display: none;
+
+}
+#campo-resultado h4{
+    margin-bottom: 5px ;
+    font-weight: 800;
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+}
+.resultado{
+    display: flex;
+}
+.resultado p{
+    margin-left: 5px;
+}
